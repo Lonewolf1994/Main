@@ -1,12 +1,22 @@
+
 local HWIDTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/Main/main/HW"))()
 local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
 
+local foundPremium = false  -- Variable to track if premium HWID is found
+
 for i,v in pairs(HWIDTable) do
-    print(v)
+    print("Checking HWID")
     if v == HWID then
         print("You have Premium Enjoy!")
+        wait(2)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/-Test1/main/wolf"))()
-    else
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/-Test1/main/Test1"))()
+        foundPremium = true
+        break  -- Exit the loop once premium HWID is found
+    end
 end
+
+-- If premium HWID is not found, show the non-premium GUI
+if not foundPremium then
+    print("Get premium to avoid the key, check out our plans in our discord server!")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/-Test1/main/Test1"))()
 end
