@@ -1,0 +1,12 @@
+local HWIDTable = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/Main/main/HW"))()
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
+
+for i,v in pairs(HWIDTable) do
+    print(v)
+    if v == HWID then
+        print("You have Premium Enjoy!")
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/-Test1/main/wolf"))()
+    else
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Lonewolf1994/-Test1/main/Test1"))()
+end
+end
