@@ -1,0 +1,207 @@
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+
+-- Instances:
+
+local Converted = {
+	["_wolf's"] = Instance.new("ScreenGui");
+	["_Main"] = Instance.new("Frame");
+	["_Topbar"] = Instance.new("Frame");
+	["_corner"] = Instance.new("UICorner");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_corner1"] = Instance.new("UICorner");
+	["_execute"] = Instance.new("TextButton");
+	["_EXEscript"] = Instance.new("LocalScript");
+	["_clear"] = Instance.new("TextButton");
+	["_Clearscript"] = Instance.new("LocalScript");
+	["_rainbow"] = Instance.new("UIStroke");
+	["_UIGradient"] = Instance.new("UIGradient");
+	["_rbcontrol"] = Instance.new("LocalScript");
+	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
+	["_TextBox"] = Instance.new("TextBox");
+}
+
+-- Properties:
+
+Converted["_wolf's"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Converted["_wolf's"].Name = "wolf's"
+Converted["_wolf's"].Parent = game:GetService("CoreGui")
+
+Converted["_Main"].BackgroundColor3 = Color3.fromRGB(47.0000009983778, 47.0000009983778, 47.0000009983778)
+Converted["_Main"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Main"].BorderSizePixel = 0
+Converted["_Main"].Position = UDim2.new(0.215175539, 0, 0.170781896, 0)
+Converted["_Main"].Size = UDim2.new(0, 502, 0, 319)
+Converted["_Main"].Name = "Main"
+Converted["_Main"].Parent = Converted["_wolf's"]
+Converted["_Main"].Active = true
+Converted["_Main"].Draggable = true
+
+Converted["_Topbar"].BackgroundColor3 = Color3.fromRGB(15.00000100582838, 15.00000100582838, 15.00000100582838)
+Converted["_Topbar"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Topbar"].BorderSizePixel = 2
+Converted["_Topbar"].Size = UDim2.new(0, 502, 0, 40)
+Converted["_Topbar"].Name = "Topbar"
+Converted["_Topbar"].Parent = Converted["_Main"]
+
+Converted["_corner"].Name = "corner"
+Converted["_corner"].Parent = Converted["_Topbar"]
+
+Converted["_TextLabel"].Font = Enum.Font.SourceSans
+Converted["_TextLabel"].Text = "Wolfs"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(143.00000667572021, 0, 0)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 10
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.300796807, 0, 0, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 200, 0, 40)
+Converted["_TextLabel"].Parent = Converted["_Topbar"]
+
+Converted["_corner1"].Name = "corner"
+Converted["_corner1"].Parent = Converted["_Main"]
+
+Converted["_execute"].Font = Enum.Font.SourceSans
+Converted["_execute"].Text = "Execute"
+Converted["_execute"].TextColor3 = Color3.fromRGB(143.00000667572021, 0, 0)
+Converted["_execute"].TextScaled = true
+Converted["_execute"].TextSize = 14
+Converted["_execute"].TextWrapped = true
+Converted["_execute"].BackgroundColor3 = Color3.fromRGB(15.00000100582838, 15.00000100582838, 15.00000100582838)
+Converted["_execute"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_execute"].BorderSizePixel = 0
+Converted["_execute"].Position = UDim2.new(0.0637450218, 0, 0.802507818, 0)
+Converted["_execute"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_execute"].Name = "execute"
+Converted["_execute"].Parent = Converted["_Main"]
+
+Converted["_clear"].Font = Enum.Font.SourceSans
+Converted["_clear"].Text = "Clear"
+Converted["_clear"].TextColor3 = Color3.fromRGB(143.00000667572021, 0, 0)
+Converted["_clear"].TextScaled = true
+Converted["_clear"].TextSize = 14
+Converted["_clear"].TextWrapped = true
+Converted["_clear"].BackgroundColor3 = Color3.fromRGB(15.00000100582838, 15.00000100582838, 15.00000100582838)
+Converted["_clear"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_clear"].BorderSizePixel = 0
+Converted["_clear"].Position = UDim2.new(0.537848592, 0, 0.802507818, 0)
+Converted["_clear"].Size = UDim2.new(0, 200, 0, 50)
+Converted["_clear"].Name = "clear"
+Converted["_clear"].Parent = Converted["_Main"]
+
+Converted["_rainbow"].Color = Color3.fromRGB(255, 255, 255)
+Converted["_rainbow"].Thickness = 4
+Converted["_rainbow"].Name = "rainbow"
+Converted["_rainbow"].Parent = Converted["_Main"]
+
+Converted["_UIGradient"].Color = ColorSequence.new{
+	ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 1.0000000591389835, 1.0000000591389835)),
+	ColorSequenceKeypoint.new(0.20000000298023224, Color3.fromRGB(255, 128.0000075697899, 0)),
+	ColorSequenceKeypoint.new(0.4000000059604645, Color3.fromRGB(255, 247.00000047683716, 29.000000171363354)),
+	ColorSequenceKeypoint.new(0.6000000238418579, Color3.fromRGB(36.00000165402889, 136.00000709295273, 0)),
+	ColorSequenceKeypoint.new(0.800000011920929, Color3.fromRGB(134.00000721216202, 66.00000366568565, 212.00000256299973)),
+	ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 13.000000175088644, 255))
+}
+Converted["_UIGradient"].Parent = Converted["_rainbow"]
+
+Converted["_ScrollingFrame"].AutomaticCanvasSize = Enum.AutomaticSize.Y
+Converted["_ScrollingFrame"].CanvasPosition = Vector2.new(0, 1950)
+Converted["_ScrollingFrame"].ScrollBarImageColor3 = Color3.fromRGB(132.0000073313713, 132.0000073313713, 132.0000073313713)
+Converted["_ScrollingFrame"].ScrollBarThickness = 0
+Converted["_ScrollingFrame"].Active = true
+Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScrollingFrame"].BackgroundTransparency = 1
+Converted["_ScrollingFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].BorderSizePixel = 0
+Converted["_ScrollingFrame"].Position = UDim2.new(0.045201458, 0, 0.195692584, 0)
+Converted["_ScrollingFrame"].Size = UDim2.new(0, 469, 0, 171)
+Converted["_ScrollingFrame"].Parent = Converted["_Main"]
+
+Converted["_TextBox"].ClearTextOnFocus = false
+Converted["_TextBox"].CursorPosition = -1
+Converted["_TextBox"].Font = Enum.Font.SourceSans
+Converted["_TextBox"].MultiLine = true
+Converted["_TextBox"].Text = ""
+Converted["_TextBox"].TextColor3 = Color3.fromRGB(55.000004321336746, 182.00000435113907, 0)
+Converted["_TextBox"].TextDirection = Enum.TextDirection.LeftToRight
+Converted["_TextBox"].TextSize = 14
+Converted["_TextBox"].TextWrapped = true
+Converted["_TextBox"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextBox"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_TextBox"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextBox"].BorderSizePixel = 0
+Converted["_TextBox"].Position = UDim2.new(-0.00137179438, 0, 0, 0)
+Converted["_TextBox"].Size = UDim2.new(0, 460, 0, 500000)
+Converted["_TextBox"].Parent = Converted["_ScrollingFrame"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function PGRAO_fake_script() -- Fake Script: StarterGui.wolf's.Main.execute.EXEscript
+    local script = Instance.new("LocalScript")
+    script.Name = "EXEscript"
+    script.Parent = Converted["_execute"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local Execute = script.Parent
+	local textbox = script.Parent.Parent.TextBox
+	Execute.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+local function YAVKU_fake_script() -- Fake Script: StarterGui.wolf's.Main.clear.Clearscript
+    local script = Instance.new("LocalScript")
+    script.Name = "Clearscript"
+    script.Parent = Converted["_clear"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local clear = script.Parent
+	local textbox = script.Parent.Parent.TextBox
+	clear.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+	end)
+end
+local function RWNMYQ_fake_script() -- Fake Script: StarterGui.wolf's.Main.rainbow.UIGradient.rbcontrol
+    local script = Instance.new("LocalScript")
+    script.Name = "rbcontrol"
+    script.Parent = Converted["_UIGradient"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	local UiGradient = script.Parent
+	while true do
+		UiGradient.Rotation +=2
+		wait()
+	end
+end
+
+coroutine.wrap(PGRAO_fake_script)()
+coroutine.wrap(YAVKU_fake_script)()
+coroutine.wrap(RWNMYQ_fake_script)()  
